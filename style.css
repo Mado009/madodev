@@ -100,7 +100,7 @@ nav .fas{
 .profilepic{
     width: 100%;
     border-radius: 30px;
-    margin-left: 150px;
+    margin-left: 100px;
     width: auto;
     height: 400px;
     
@@ -441,6 +441,8 @@ form input,form textarea{
     .row1 img{
         width: auto;
         height: 500px;
+        margin-left: 0;
+        align-items: center;
         border-radius: 30px;
     }
     .row2{
