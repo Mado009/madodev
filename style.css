@@ -283,7 +283,7 @@ nav .fas{
 }
 .row-left-text{
     font-size: 20px;
-    width: auto;
+    width: 100%;
     font-weight: 700;
     margin-top: 25px;
 }
@@ -362,16 +362,20 @@ form input,form textarea{
 @media screen and (max-width: 600px){
     #header{
         background-image: url(assets/back.png);
+        background-size:cover ;
     }
     nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        padding: 10px 5%;
+       
+        
         
     }
-    
+    nav img{
+        margin-left: 0 !important;
+    }
 
     nav .fas{
         display: block;
@@ -451,6 +455,9 @@ form input,form textarea{
         font-size: 30px;
         text-align: center;
         margin-left: 20px;
+    }
+    .tabs-content ul{
+        margin-left: 35px;
     }
     .tabs-content ul li{
         font-size: 15px;
